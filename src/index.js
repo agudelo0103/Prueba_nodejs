@@ -16,6 +16,6 @@ app.use(require('./users.js'));
 
 //Aqui se inicia el servidor
 app.listen(app.get('port'), () => {
-  console.log(`servidor inicado correctamente en el puerto ${app.get('port')}`);
+  console.log(`servidor iniciado correctamente en el puerto ${app.get('port')}`);
 });
 
